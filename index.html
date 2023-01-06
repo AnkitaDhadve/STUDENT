@@ -57,10 +57,11 @@ and open the template in the editor.
                 <div class="form-group text-center">
                     <input type="button" class="btn btn-primary" id="Save" value="Save"
                            onclick="save();">
-                    <button type="button" class="btn btn-lg btn-primary" id="Change" 
-                            onclick="ChangeData()" disabled>Change</button>
-                    <button type="button" class="btn btn-lg btn-primary" id="Reset" 
-                            onclick="ResetForm()" disabled>Reset</button>
+                    
+                    <input type="button" class="btn btn-primary" id="Change" value="Change"
+                               onclick="Change();">
+                        <input type="button" class="btn btn-primary" id="Reset" value="Reset"
+                               onclick="Reset();">
             </form>
         </div>
 
@@ -71,6 +72,6 @@ and open the template in the editor.
 
     </script>
     <script type="text/javascript" src="index.js"></script>
-<script type="text/javascriptipt" src="http://api.login2explore.com:5577/user/jpdb_view.html"></script>
+
 </body>
 </html>
